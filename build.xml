@@ -26,9 +26,6 @@
         <sleep seconds="2"/>
     </target>
     <target depends="compile" name="test">
-        <echo message="Testing on Linux..."/>
-
-
       <junit printsummary="yes" haltonfailure="yes">
         <classpath refid="class.path"/>
         <classpath>
